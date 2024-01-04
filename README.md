@@ -5,10 +5,12 @@
 ### Datasets
 ### Suicidal Post Detection from Kaggle : https://www.kaggle.com/datasets/aunanya875/suicidal-tweet-detection-dataset/data
 ### Mental Health Conversational Data from Kaggle : https://www.kaggle.com/datasets/elvis23/mental-health-conversational-data/data
+### Custom dataset
 
 ### Approach and models  : 
 #### A xgboost classifier classifies whether the given post or tweet is suicidal or not 
 #### for mental health conversation, a bidirectional LSTM is used to predict the intent of input data and to generate the responses based on that. 
+#### for a custom dataset, sequence to sequence model attention mechanism to generate text 
 
 ### Its applications: 
 #### Can be used as a web crawler. 
